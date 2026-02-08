@@ -45,7 +45,7 @@ jobs:
           image: thebillcollector/springbootcicd
           tags: latest
           registry: docker.io
-          dockerfile: Dockerfile.ci
+          dockerfile: Dockerfile
           # These can stay here if the action supports it,
           # but login-action above is safer!
           username: ${{ secrets.Docker_USERNAME }}
