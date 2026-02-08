@@ -15,6 +15,11 @@ public class GitcicdApplication {
 		return "Welcome to Maxdev universe";
 	}
 
+	@GetMapping("/welcome2")
+	public String welcome2(){
+		return "Welcome to Maxdev2 universe";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(GitcicdApplication.class, args);
 	}
